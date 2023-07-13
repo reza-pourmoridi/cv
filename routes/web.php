@@ -13,6 +13,19 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/', 'App\Http\Controllers\ConatactController@create');
+
+
+Route::group(['prefix' => 'admin', 'middleware' => 'auth.admin'], function () {
+    // Display login form
+    Route::get('login', 'AdminLoginController@showLoginForm')->name('admin.login');
+
+    // Handle login form submission
+    Route::post('login', 'AdminLoginController@login')->name('admin.login.submit');
+
+    // Your other admin routes here
 });
+
+
+
+
