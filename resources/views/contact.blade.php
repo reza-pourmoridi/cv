@@ -197,8 +197,8 @@
                 <h2 class="h3 text mb-3">Contact</h2>
                 <div class="row">
                     <div class="col-md-7 d-print-none">
-                        <div class="my-2"><form action="https://formspree.io/your@email.com"
-                                                method="POST">
+                        <div class="my-2">
+                            <form id="contactForm" action="{{ route('contact.store') }}" method="POST">
                                 <div class="row">
                                     <div class="col-6">
                                         <input class="form-control" type="text" id="name" name="name" placeholder="Your Name" required>
@@ -278,5 +278,49 @@
 <script src="scripts/bootstrap.bundle.min.js?ver=1.2.0"></script>
 <script src="scripts/aos.js?ver=1.2.0"></script>
 <script src="scripts/main.js?ver=1.2.0"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const form = document.getElementById('contactForm');
+        form.addEventListener('submit', function(e) {
+            e.preventDefault();
+
+            const nameInput = document.getElementById('name');
+            const emailInput = document.getElementById('email');
+            const messageInput = document.getElementById('message');
+
+            const formData = {
+                name: nameInput.value,
+                email: emailInput.value,
+                message: messageInput.value
+            };
+            const url = form.getAttribute('action');
+            console.log(formData);
+
+            fetch(url, {
+                method: 'POST',
+                body: JSON.stringify(formData),
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Accept': 'application/json',
+                    'X-Requested-With': 'XMLHttpRequest',
+                },
+            })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.success) {
+                        form.reset();
+                        alert('Message sent successfully!');
+                    } else {
+                        alert('An error occurred. Please try again.');
+                    }
+                })
+                .catch(error => {
+                    console.error(error);
+                    alert('An error occurred. Please try again.');
+                });
+        });
+    });
+</script>
+
 </body>
 </html>

@@ -3,6 +3,9 @@
 namespace App\Http\Controllers\admin;
 
 use App\Http\Controllers\Controller;
+use Illuminate\Http\Request;
+use App\Models\loginAdmin;
+use App\Models\contacts;
 
 class LoginAdminController extends Controller
 {
@@ -12,17 +15,34 @@ class LoginAdminController extends Controller
         return view('admin.login');
     }
 
-    // Handle the login form submission
+    public function doshboard()
+    {
+        return view('admin.index');
+    }
+
+    public function contactMeList()
+    {
+        $contactList = contacts::all();
+
+        $result=[
+            'list'=>$contactList ,
+        ];
+
+        return view('admin.contactMe.list',compact('result'));
+    }
+
+
+// Handle the login form submission
     public function login(Request $request)
     {
-        // Perform authentication logic here
-        // Example: check credentials and log in the user
+        $AUTH_DETAIL = LoginAdmin::first();
 
-        if (1 == 1) {
-            // User authenticated successfully
+
+        if ($AUTH_DETAIL->user_name == $request->username && $AUTH_DETAIL->password == $request->password) {
+            // Assuming you have authenticated the user and verified their admin status
+            session(['isAdmin' => true]);
             return redirect('/admin/dashboard');
         } else {
-            // Authentication failed
             return redirect()->back()->withInput()->withErrors(['login' => 'Invalid credentials']);
         }
     }
