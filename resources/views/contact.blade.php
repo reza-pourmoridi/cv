@@ -11,10 +11,10 @@
     <noscript>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&amp;family=Roboto:wght@300;400;500;700&amp;display=swap"/>
     </noscript>
-    <link href="css/font-awesome/css/all.min.css?ver=1.2.0" rel="stylesheet">
-    <link href="css/bootstrap.min.css?ver=1.2.0" rel="stylesheet">
-    <link href="css/aos.css?ver=1.2.0" rel="stylesheet">
-    <link href="css/main.css?ver=1.2.0" rel="stylesheet">
+    <link href="{{ (asset('public/css/font-awesome/css/all.min.css?ver=1.2.0')) }}"  rel="stylesheet">
+    <link href="{{ (asset('public/css/bootstrap.min.css?ver=1.2.0')) }}"  rel="stylesheet">
+    <link href="{{ (asset('public/css/aos.css?ver=1.2.0')) }}"  rel="stylesheet">
+    <link href="{{ (asset('public/css/main.css?ver=1.2.0')) }}"  rel="stylesheet">
     <noscript>
         <style type="text/css">
             [data-aos] {
@@ -28,18 +28,14 @@
 <header class="d-print-none">
     <div class="container text-center text-lg-left">
         <div class="py-3 clearfix">
-            <h1 class="site-title mb-0">Joyce Harrison</h1>
+            <h1 class="site-title mb-0">Reza Pourmoridi</h1>
             <div class="site-nav">
                 <nav role="navigation">
                     <ul class="nav justify-content-center">
-                        <li class="nav-item"><a class="nav-link" href="https://twitter.com/templateflip" title="Twitter"><i class="fab fa-twitter"></i><span class="menu-title sr-only">Twitter</span></a>
-                        </li>
-                        <li class="nav-item"><a class="nav-link" href="https://www.facebook.com/templateflip" title="Facebook"><i class="fab fa-facebook"></i><span class="menu-title sr-only">Facebook</span></a>
-                        </li>
-                        <li class="nav-item"><a class="nav-link" href="https://www.instagram.com/templateflip" title="Instagram"><i class="fab fa-instagram"></i><span class="menu-title sr-only">Instagram</span></a>
-                        </li>
-                        <li class="nav-item"><a class="nav-link" href="https://github.com/templateflip" title="Github"><i class="fab fa-github"></i><span class="menu-title sr-only">Github</span></a>
-                        </li>
+                        <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/reza-pourmoridi/" title="linkedin"><i class="fab fa-linkedin"></i><span class="menu-title sr-only">linkedin</span></a></li>
+                        <li class="nav-item"><a class="nav-link" href="https://github.com/reza-pourmoridi" title="Github"><i class="fab fa-github"></i><span class="menu-title sr-only">Github</span></a></li>
+                        <li class="nav-item"><a class="nav-link" href="https://wa.me/+989160814526" title="Github"><i class="fab fa-whatsapp"></i><span class="menu-title sr-only">whatsapp</span></a></li>
+                        <li class="nav-item"><a class="nav-link" href="https://t.me/+989160814526" title="Github"><i class="fab fa-telegram"></i><span class="menu-title sr-only">telegram</span></a></li>
                     </ul>
                 </nav>
             </div>
@@ -52,11 +48,11 @@
             <div class="cover-bg p-3 p-lg-4 text-white">
                 <div class="row">
                     <div class="col-lg-4 col-md-5">
-                        <div class="avatar hover-effect bg-white shadow-sm p-1"><img src="images/avatar.jpg" width="200" height="200"/></div>
+                        <div class="avatar hover-effect bg-white shadow-sm p-1"><img src="public/images/avatar.jpg" width="200" height="200"/></div>
                     </div>
                     <div class="col-lg-8 col-md-7 text-center text-md-start">
-                        <h2 class="h1 mt-2" data-aos="fade-left" data-aos-delay="0">Joyce Harrison</h2>
-                        <p data-aos="fade-left" data-aos-delay="100">Graphic Designer & Web Developer</p>
+                        <h2 class="h1 mt-2" data-aos="fade-left" data-aos-delay="0">Reza Pourmoridi</h2>
+                        <p data-aos="fade-left" data-aos-delay="100">php backend developer</p>
                         <div class="d-print-none" data-aos="fade-left" data-aos-delay="200"><a class="btn btn-light text-dark shadow-sm mt-1 me-1" href="right-resume.pdf" target="_blank">Download CV</a><a class="btn btn-success shadow-sm mt-1" href="#contact">Hire Me</a></div>
                     </div>
                 </div>
@@ -65,7 +61,7 @@
                 <div class="row">
                     <div class="col-md-6">
                         <h2 class="h3 mb-3">About Me</h2>
-                        <p>Hello! I’m Joyce Harrison. I am passionate about UI/UX design and Web Design. I am a skilled Front-end Developer and master of Graphic Design tools such as Photoshop and Sketch.</p>
+                        <p>Hello! I’m Reza Pourmoridi. I am passionate about UI/UX design and Web Design. I am a skilled Front-end Developer and master of Graphic Design tools such as Photoshop and Sketch.</p>
                     </div>
                     <div class="col-md-5 offset-md-1">
                         <div class="row mt-2">
@@ -73,19 +69,19 @@
                                 <div class="pb-1">Age</div>
                             </div>
                             <div class="col-sm-8">
-                                <div class="pb-1 text-secondary">28</div>
+                                <div class="pb-1 text-secondary">26</div>
                             </div>
                             <div class="col-sm-4">
                                 <div class="pb-1">Email</div>
                             </div>
                             <div class="col-sm-8">
-                                <div class="pb-1 text-secondary">Joyce@company.com</div>
+                                <div class="pb-1 text-secondary">rezapourmoridi@gmail.com</div>
                             </div>
                             <div class="col-sm-4">
                                 <div class="pb-1">Phone</div>
                             </div>
                             <div class="col-sm-8">
-                                <div class="pb-1 text-secondary">+0718-111-0011</div>
+                                <div class="pb-1 text-secondary">+98 9160814526</div>
                             </div>
                             <div class="col-sm-4">
                                 <div class="pb-1">Address</div>
@@ -102,31 +98,31 @@
                 <h2 class="h3 mb-3">Professional Skills</h2>
                 <div class="row">
                     <div class="col-md-6">
-                        <div class="mb-2"><span>HTML</span>
+                        <div class="mb-2"><span>PHP(OOP , functional, Design Patterns , RESTful API)</span>
                             <div class="progress my-1">
-                                <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="100" data-aos-anchor=".skills-section" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="100" data-aos-anchor=".skills-section" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div>
-                        <div class="mb-2"><span>CSS</span>
+                        <div class="mb-2"><span>Laravel</span>
                             <div class="progress my-1">
-                                <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="200" data-aos-anchor=".skills-section" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="200" data-aos-anchor=".skills-section" style="width: 45%" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div>
-                        <div class="mb-2"><span>JavaScript</span>
+                        <div class="mb-2"><span>Database(SQL, mysql, sql builders, high performance sql)</span>
                             <div class="progress my-1">
                                 <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="300" data-aos-anchor=".skills-section" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <div class="mb-2"><span>Adobe Photoshop</span>
+                        <div class="mb-2"><span>HTML, CSS</span>
                             <div class="progress my-1">
-                                <div class="progress-bar bg-success" role="progressbar" data-aos="zoom-in-right" data-aos-delay="400" data-aos-anchor=".skills-section" style="width: 80%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="progress-bar bg-success" role="progressbar" data-aos="zoom-in-right" data-aos-delay="400" data-aos-anchor=".skills-section" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div>
-                        <div class="mb-2"><span>Sketch</span>
+                        <div class="mb-2"><span>JS(pure js, jquery, nuxt, vue)</span>
                             <div class="progress my-1">
-                                <div class="progress-bar bg-success" role="progressbar" data-aos="zoom-in-right" data-aos-delay="500" data-aos-anchor=".skills-section" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="progress-bar bg-success" role="progressbar" data-aos="zoom-in-right" data-aos-delay="500" data-aos-anchor=".skills-section" style="width: 35%" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div>
                         <div class="mb-2"><span>Adobe XD</span>
@@ -219,30 +215,18 @@
                             <h3 class="h6">Address</h3>
                             <div class="pb-2 text-secondary">140, City Center, New York, U.S.A</div>
                             <h3 class="h6">Phone</h3>
-                            <div class="pb-2 text-secondary">+0718-111-0011</div>
+                            <div class="pb-2 text-secondary">+98 9160814526</div>
                             <h3 class="h6">Email</h3>
-                            <div class="pb-2 text-secondary">Joyce@company.com</div>
+                            <div class="pb-2 text-secondary">rezapourmoridi@gmail.com</div>
                         </div>
                     </div>
                     <div class="col d-none d-print-block">
                         <div class="mt-2">
                             <div>
-                                <div class="mb-2">
-                                    <div class="text-dark"><i class="fab fa-twitter mr-1"></i><span>https://twitter.com/templateflip</span>
-                                    </div>
-                                </div>
-                                <div class="mb-2">
-                                    <div class="text-dark"><i class="fab fa-facebook mr-1"></i><span>https://www.facebook.com/templateflip</span>
-                                    </div>
-                                </div>
-                                <div class="mb-2">
-                                    <div class="text-dark"><i class="fab fa-instagram mr-1"></i><span>https://www.instagram.com/templateflip</span>
-                                    </div>
-                                </div>
-                                <div class="mb-2">
-                                    <div class="text-dark"><i class="fab fa-github mr-1"></i><span>https://github.com/templateflip</span>
-                                    </div>
-                                </div>
+                                <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/reza-pourmoridi/" title="linkedin"><i class="fab fa-linkedin"></i><span class="menu-title sr-only">linkedin</span></a></li>
+                                <li class="nav-item"><a class="nav-link" href="https://github.com/reza-pourmoridi" title="Github"><i class="fab fa-github"></i><span class="menu-title sr-only">Github</span></a></li>
+                                <li class="nav-item"><a class="nav-link" href="https://wa.me/+989160814526" title="Github"><i class="fab fa-whatsapp"></i><span class="menu-title sr-only">whatsapp</span></a></li>
+                                <li class="nav-item"><a class="nav-link" href="https://t.me/+989160814526" title="Github"><i class="fab fa-telegram"></i><span class="menu-title sr-only">telegram</span></a></li>
                             </div>
                         </div>
                     </div>
@@ -253,31 +237,26 @@
 <footer class="pt-4 pb-4 text-muted text-center d-print-none">
     <div class="container">
         <div class="my-3">
-            <div class="h4">Joyce Harrison</div>
+            <div class="h4">Reza Pourmoridi</div>
             <div class="footer-nav">
                 <nav role="navigation">
                     <ul class="nav justify-content-center">
-                        <li class="nav-item"><a class="nav-link" href="https://twitter.com/templateflip" title="Twitter"><i class="fab fa-twitter"></i><span class="menu-title sr-only">Twitter</span></a>
-                        </li>
-                        <li class="nav-item"><a class="nav-link" href="https://www.facebook.com/templateflip" title="Facebook"><i class="fab fa-facebook"></i><span class="menu-title sr-only">Facebook</span></a>
-                        </li>
-                        <li class="nav-item"><a class="nav-link" href="https://www.instagram.com/templateflip" title="Instagram"><i class="fab fa-instagram"></i><span class="menu-title sr-only">Instagram</span></a>
-                        </li>
-                        <li class="nav-item"><a class="nav-link" href="https://github.com/templateflip" title="Github"><i class="fab fa-github"></i><span class="menu-title sr-only">Github</span></a>
-                        </li>
+                        <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/reza-pourmoridi/" title="linkedin"><i class="fab fa-linkedin"></i><span class="menu-title sr-only">linkedin</span></a></li>
+                        <li class="nav-item"><a class="nav-link" href="https://github.com/reza-pourmoridi" title="Github"><i class="fab fa-github"></i><span class="menu-title sr-only">Github</span></a></li>
+                        <li class="nav-item"><a class="nav-link" href="https://wa.me/+989160814526" title="Github"><i class="fab fa-whatsapp"></i><span class="menu-title sr-only">whatsapp</span></a></li>
+                        <li class="nav-item"><a class="nav-link" href="https://t.me/+989160814526" title="Github"><i class="fab fa-telegram"></i><span class="menu-title sr-only">telegram</span></a></li>
                     </ul>
                 </nav>
             </div>
         </div>
         <div class="text-small">
-            <div class="mb-1">&copy; Right Resume. All rights reserved.</div>
-            <div>Design - <a href="https://templateflip.com/" target="_blank">TemplateFlip</a></div>
+            <div class="mb-1">&copy;  All rights reserved.</div>
         </div>
     </div>
 </footer>
-<script src="scripts/bootstrap.bundle.min.js?ver=1.2.0"></script>
-<script src="scripts/aos.js?ver=1.2.0"></script>
-<script src="scripts/main.js?ver=1.2.0"></script>
+<script src="{{ (asset('public/scripts/bootstrap.bundle.min.js?ver=1.2.0')) }}"></script>
+<script src="{{ (asset('public/scripts/aos.js?ver=1.2.0')) }}"></script>
+<script src="{{ (asset('public/scripts/main.js?ver=1.2.0')) }}"></script>
 <script>
     document.addEventListener('DOMContentLoaded', function() {
         const form = document.getElementById('contactForm');
