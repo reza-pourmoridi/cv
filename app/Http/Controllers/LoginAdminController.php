@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Http\Controllers\admin;
+namespace App\Http\Controllers;
 
-use App\Http\Controllers\Controller;
+
 use Illuminate\Http\Request;
-use App\Models\loginAdmin;
+use App\Models\LoginAdmin;
 use App\Models\contacts;
 
 class LoginAdminController extends Controller

@@ -20,6 +20,32 @@
     <link href="{{ (asset('css/bootstrap.min.css?ver=1.2.0')) }}"  rel="stylesheet">
     <link href="{{ (asset('css/aos.css?ver=1.2.0')) }}"  rel="stylesheet">
     <link href="{{ (asset('css/main.css?ver=1.2.0')) }}"  rel="stylesheet">
+
+    <style>
+        /* styles.css */
+        .carousel-container {
+            width: 100%;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .carousel-track {
+            display: flex;
+            transition: transform 0.3s ease;
+        }
+
+        .carousel-item {
+            flex: 0 0 100%;
+            padding: 20px;
+            background-color: #f3f3f3;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            font-size: 18px;
+            color: #333;
+        }
+
+    </style>
     <noscript>
         <style type="text/css">
             [data-aos] {
@@ -52,13 +78,7 @@
             <h1 class="site-title mb-0">Reza Pourmoridi</h1>
             <div class="site-nav">
                 <nav role="navigation">
-                    <ul class="nav justify-content-center">
-                        <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/reza-pourmoridi/" title="linkedin"><i class="fab fa-linkedin"></i><span class="menu-title sr-only">linkedin</span></a></li>
-                        <li class="nav-item"><a class="nav-link" href="https://github.com/reza-pourmoridi" title="Github"><i class="fab fa-github"></i><span class="menu-title sr-only">Github</span></a></li>
-                        <li class="nav-item"><a class="nav-link" href="https://wa.me/+989160814526" title="Github"><i class="fab fa-whatsapp"></i><span class="menu-title sr-only">whatsapp</span></a></li>
-                        <li class="nav-item"><a class="nav-link" href="https://join.skype.com/invite/Amp9GMArtZBR" title="Github"><i class="fab fa-skype"></i><span class="menu-title sr-only">skype</span></a></li>
-                        <li class="nav-item"><a class="nav-link" href="https://t.me/+989160814526" title="Github"><i class="fab fa-telegram"></i><span class="menu-title sr-only">telegram</span></a></li>
-                    </ul>
+                    <h5><b>cv website: rezapourmoridi.ir</b></h5>
                 </nav>
             </div>
         </div>
@@ -76,7 +96,7 @@
                         <h2 class="h1 mt-2" data-aos="fade-left" data-aos-delay="0">Reza Pourmoridi</h2>
                         <h2>Mid-Level PHP Back-End Developer</h2>
 
-                        <div class="d-print-none" data-aos="fade-left" data-aos-delay="200"><a class="btn btn-light text-dark shadow-sm mt-1 me-1" href="{{ (asset('public/images/reza-pourmoridi-cv.pdf')) }}" target="_blank">Download CV</a><a class="btn btn-success shadow-sm mt-1" href="#contact">Hire Me</a></div>
+
                     </div>
                 </div>
             </div>
@@ -130,34 +150,34 @@
                     <div class="col-md-6">
                         <div class="mb-2"><span>PHP(OOP, SOLID, Design Patterns, RESTful API, TDD)</span>
                             <div class="progress my-1">
-                                <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="100" data-aos-anchor=".skills-section" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="progress-bar bg-primary aos-init aos-animate" role="progressbar" data-aos="zoom-in-right" data-aos-delay="100" data-aos-anchor=".skills-section" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div>
                         <div class="mb-2"><span>Laravel</span>
                             <div class="progress my-1">
-                                <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="200" data-aos-anchor=".skills-section" style="width: 45%" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="progress-bar bg-primary aos-init aos-animate" role="progressbar" data-aos="zoom-in-right" data-aos-delay="200" data-aos-anchor=".skills-section" style="width: 45%" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div>
                         <div class="mb-2"><span>Database(SQL, mysql, sql builders, high performance sql)</span>
                             <div class="progress my-1">
-                                <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="300" data-aos-anchor=".skills-section" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="progress-bar bg-primary aos-init aos-animate" role="progressbar" data-aos="zoom-in-right" data-aos-delay="300" data-aos-anchor=".skills-section" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="mb-2"><span>HTML, CSS</span>
                             <div class="progress my-1">
-                                <div class="progress-bar bg-success" role="progressbar" data-aos="zoom-in-right" data-aos-delay="400" data-aos-anchor=".skills-section" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="progress-bar bg-success aos-init aos-animate" role="progressbar" data-aos="zoom-in-right" data-aos-delay="400" data-aos-anchor=".skills-section" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div>
                         <div class="mb-2"><span>JS(pure js, jquery, nuxt, vue)</span>
                             <div class="progress my-1">
-                                <div class="progress-bar bg-success" role="progressbar" data-aos="zoom-in-right" data-aos-delay="500" data-aos-anchor=".skills-section" style="width: 35%" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="progress-bar bg-success aos-init aos-animate" role="progressbar" data-aos="zoom-in-right" data-aos-delay="500" data-aos-anchor=".skills-section" style="width: 35%" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div>
                         <div class="mb-2"><span>agile scrum</span>
                             <div class="progress my-1">
-                                <div class="progress-bar bg-success" role="progressbar" data-aos="zoom-in-right" data-aos-delay="600" data-aos-anchor=".skills-section" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="progress-bar bg-success aos-init aos-animate" role="progressbar" data-aos="zoom-in-right" data-aos-delay="600" data-aos-anchor=".skills-section" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div>
                     </div>
@@ -208,6 +228,34 @@
                     </div>
                 </div>
             </div>
+            <hr class="d-print-none"/>
+            <div class="work-experience-section px-3 px-lg-4">
+                <h2 class="h3 mb-4">Projects and contributions</h2>
+                <div class="timeline">
+                    <div class="timeline-card timeline-card-primary card shadow-sm">
+                        <div class="card-body">
+                            <div class="h5 mb-1">Mid-Level PHP Back-End Developer  <span class="text-muted h6">iran tech company • Full-time</span></div>
+                            <div class="text-muted text-small mb-2">Apr 2021 – present</div>
+                            <div>
+                                Include a section highlighting personal projects or links to your online portfolio, if applicable. This helps demonstrate your coding abilities and passion for programming.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-card timeline-card-primary card shadow-sm">
+                        <div class="card-body">
+                            <div class="h5 mb-1">jonior back end dev <span class="text-muted h6">ponisha • Freelance</span></div>
+                            <div class="text-muted text-small mb-2">Mar 2020 – Apr 2021 • 1 yr 1 mo</div>
+                            <div>Remote
+                                Technologies: PHP • Laravel • WordPress
+                                After learning the basics of back-end development, I began working as a freelancer and gained a lot of
+                                experience by completing multiple projects.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
 
             <div class="education-section px-3 px-lg-4 pb-4">
                 <h2 class="h3 mb-4">Purpose and Desired Work</h2>
@@ -224,148 +272,14 @@
             </div>
 
 
-            <hr class="d-print-none"/>
-            <div class="contant-section px-3 px-lg-4 pb-4" id="contact">
-                <h2 class="h3 text mb-3">Contact</h2>
-                <div class="row">
-                    <div class="col-md-7 d-print-none">
-                        <div class="my-2">
-                            <form id="contactForm" action="{{ route('contact.store') }}" method="POST">
-                                <div class="row">
-                                    <div class="col-6">
-                                        <input class="form-control" type="text" id="name" name="name" placeholder="Your Name" required>
-                                    </div>
-                                    <div class="col-6">
-                                        <input class="form-control" type="email" id="email" name="_replyto" placeholder="Your E-mail" required>
-                                    </div>
-                                </div>
-                                <div class="form-group my-2">
-                                    <textarea class="form-control" style="resize: none;" id="message" name="message" rows="4"  placeholder="Your Message" required></textarea>
-                                </div>
-                                <button class="btn btn-primary mt-2" type="submit">Send</button>
-                            </form>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="mt-2">
-                            <h3 class="h6">Address</h3>
-                            <div class="pb-2 text-secondary">Iran, Tehran</div>
-                            <h3 class="h6">Phone</h3>
-                            <div class="pb-2 text-secondary">+98 9160814526</div>
-                            <h3 class="h6">Email</h3>
-                            <div class="pb-2 text-secondary">info@rezapourmoridi.ir</div>
-                        </div>
-                    </div>
-                    <div class="col d-none d-print-block">
-                        <div class="mt-2">
-                            <div>
-                                <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/reza-pourmoridi/" title="linkedin"><i class="fab fa-linkedin"></i><span class="menu-title sr-only">linkedin</span></a></li>
-                                <li class="nav-item"><a class="nav-link" href="https://github.com/reza-pourmoridi" title="Github"><i class="fab fa-github"></i><span class="menu-title sr-only">Github</span></a></li>
-                                <li class="nav-item"><a class="nav-link" href="https://wa.me/+989160814526" title="Github"><i class="fab fa-whatsapp"></i><span class="menu-title sr-only">whatsapp</span></a></li>
-                                <li class="nav-item"><a class="nav-link" href="https://join.skype.com/invite/Amp9GMArtZBR" title="Github"><i class="fab fa-skype"></i><span class="menu-title sr-only">skype</span></a></li>
-
-                                <li class="nav-item"><a class="nav-link" href="https://t.me/+989160814526" title="Github"><i class="fab fa-telegram"></i><span class="menu-title sr-only">telegram</span></a></li>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div></div>
 </div>
 <footer class="pt-4 pb-4 text-muted text-center d-print-none">
     <div class="container">
-        <div class="my-3">
-            <div class="h4">Reza Pourmoridi</div>
-            <div class="footer-nav">
-                <nav role="navigation">
-                    <ul class="nav justify-content-center">
-                        <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/reza-pourmoridi/" title="linkedin"><i class="fab fa-linkedin"></i><span class="menu-title sr-only">linkedin</span></a></li>
-                        <li class="nav-item"><a class="nav-link" href="https://github.com/reza-pourmoridi" title="Github"><i class="fab fa-github"></i><span class="menu-title sr-only">Github</span></a></li>
-                        <li class="nav-item"><a class="nav-link" href="https://wa.me/+989160814526" title="Github"><i class="fab fa-whatsapp"></i><span class="menu-title sr-only">whatsapp</span></a></li>
-                                <li class="nav-item"><a class="nav-link" href="https://join.skype.com/invite/Amp9GMArtZBR" title="Github"><i class="fab fa-skype"></i><span class="menu-title sr-only">skype</span></a></li>
-                        <li class="nav-item"><a class="nav-link" href="https://t.me/+989160814526" title="Github"><i class="fab fa-telegram"></i><span class="menu-title sr-only">telegram</span></a></li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-        <div class="text-small">
-            <p>&copy; 2023 Reza Pourmoridi - Mid-Level PHP Back-End Developer </p>
-        </div>
+
     </div>
 </footer>
-<script src="{{ (asset('scripts/bootstrap.bundle.min.js?ver=1.2.0')) }}"></script>
-<script src="{{ (asset('scripts/aos.js?ver=1.2.0')) }}"></script>
-<script src="{{ (asset('scripts/main.js?ver=1.2.0')) }}"></script>
-<script>
-    document.addEventListener('DOMContentLoaded', function() {
-        const form = document.getElementById('contactForm');
-        form.addEventListener('submit', function(e) {
-            e.preventDefault();
 
-            const nameInput = document.getElementById('name');
-            const emailInput = document.getElementById('email');
-            const messageInput = document.getElementById('message');
 
-            const formData = {
-                name: nameInput.value,
-                email: emailInput.value,
-                message: messageInput.value
-            };
-            const url = form.getAttribute('action');
-            console.log(formData);
-
-            fetch(url, {
-                method: 'POST',
-                body: JSON.stringify(formData),
-                headers: {
-                    'Content-Type': 'application/json',
-                    'Accept': 'application/json',
-                    'X-Requested-With': 'XMLHttpRequest',
-                },
-            })
-                .then(response => response.json())
-                .then(data => {
-                    if (data.success) {
-                        form.reset();
-                        alert('Message sent successfully!');
-                    } else {
-                        alert('An error occurred. Please try again.');
-                    }
-                })
-                .catch(error => {
-                    console.error(error);
-                    alert('An error occurred. Please try again.');
-                });
-        });
-    });
-</script>
-
-<script>
-    // script.js
-    document.addEventListener("DOMContentLoaded", function () {
-        const carouselTrack = document.querySelector(".carousel-track");
-        const carouselItems = document.querySelectorAll(".carousel-item");
-        const itemWidth = carouselItems[0].clientWidth;
-        let currentPosition = 0;
-
-        function moveToSlide(position) {
-            carouselTrack.style.transform = `translateX(-${position * itemWidth}px)`;
-        }
-
-        function nextSlide() {
-            currentPosition = (currentPosition + 1) % carouselItems.length;
-            moveToSlide(currentPosition);
-        }
-
-        function prevSlide() {
-            currentPosition = (currentPosition - 1 + carouselItems.length) % carouselItems.length;
-            moveToSlide(currentPosition);
-        }
-
-        setInterval(nextSlide, 3000); // Autoplay interval in milliseconds
-    });
-
-</script>
-
-</body>
+    </body>
 </html>

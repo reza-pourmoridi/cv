@@ -12,6 +12,10 @@ class ConatactController extends Controller
     {
         return view('contact');
     }
+    public function cv()
+    {
+        return view('cv');
+    }
 
     public function store(Request $request)
     {
