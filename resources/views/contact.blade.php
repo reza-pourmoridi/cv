@@ -208,6 +208,31 @@
                     </div>
                 </div>
             </div>
+            <hr class="d-print-none"/>
+            <div class="work-experience-section px-3 px-lg-4">
+                <h2 class="h3 mb-4">Projects and contributions</h2>
+                <div class="timeline">
+                    <div class="timeline-card timeline-card-primary card shadow-sm">
+                        <div class="card-body">
+                            <div class="h5 mb-1">Scrum - Contract and Employee Management App <span class="text-muted h6">Back-end</span></div>
+                            <div class="text-muted text-small mb-2">php, laravel, js, nuxt, restfull-api</div>
+                            <div>Made substantial contributions to "Scrum," the company's contract and employee management app, built with Laravel and Nuxt.js. Working closely with the development team, I participated in feature development, bug fixing, and code refactoring. By ensuring code quality and implementing efficient solutions, I contributed to the app's overall stability and performance. The app streamlined contract management processes and improved employee-related tasks, leading to enhanced organizational efficiency and a more productive work environment.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-card timeline-card-primary card shadow-sm">
+                        <div class="card-body">
+                            <div class="h5 mb-1">Company Tourism Framework  <span class="text-muted h6">Back-end</span></div>
+                            <div class="text-muted text-small mb-2">php, js, sql, html/css, ci/cd</div>
+                            <div>
+                                Actively contributed to the development of the company's tourism framework, a sophisticated platform used to create multilingual websites for the tourism industry. Collaborating with the development team, I played a key role in implementing new features, optimizing code, and resolving critical issues. My efforts significantly improved the framework's capabilities, enabling the creation of dynamic and engaging websites, which positively impacted the company's reputation and customer satisfaction.                            </div>
+                            <br>
+                            Examples:<br> <a href="https://s360.iran-tech.com/en/">S360</a> <br>  <a href="https://www.travelta.vip">Travelta</a> <br>  <a href="https://www.pmptravel.com/">PMP Travel</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
 
             <div class="education-section px-3 px-lg-4 pb-4">
                 <h2 class="h3 mb-4">Purpose and Desired Work</h2>
@@ -282,7 +307,7 @@
                         <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/reza-pourmoridi/" title="linkedin"><i class="fab fa-linkedin"></i><span class="menu-title sr-only">linkedin</span></a></li>
                         <li class="nav-item"><a class="nav-link" href="https://github.com/reza-pourmoridi" title="Github"><i class="fab fa-github"></i><span class="menu-title sr-only">Github</span></a></li>
                         <li class="nav-item"><a class="nav-link" href="https://wa.me/+989160814526" title="Github"><i class="fab fa-whatsapp"></i><span class="menu-title sr-only">whatsapp</span></a></li>
-                                <li class="nav-item"><a class="nav-link" href="https://join.skype.com/invite/Amp9GMArtZBR" title="Github"><i class="fab fa-skype"></i><span class="menu-title sr-only">skype</span></a></li>
+                        <li class="nav-item"><a class="nav-link" href="https://join.skype.com/invite/Amp9GMArtZBR" title="Github"><i class="fab fa-skype"></i><span class="menu-title sr-only">skype</span></a></li>
                         <li class="nav-item"><a class="nav-link" href="https://t.me/+989160814526" title="Github"><i class="fab fa-telegram"></i><span class="menu-title sr-only">telegram</span></a></li>
                     </ul>
                 </nav>

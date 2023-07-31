@@ -134,10 +134,10 @@
                                 <div class="pb-1 text-secondary">+98 9160814526</div>
                             </div>
                             <div class="col-sm-4">
-                                <div class="pb-1">Address</div>
+                                <div class="pb-1">link din</div>
                             </div>
                             <div class="col-sm-8">
-                                <div class="pb-1 text-secondary">Iran, Tehran</div>
+                                <div class="pb-1 text-secondary">reza-pourmoridi</div>
                             </div>
                         </div>
                     </div>
@@ -234,23 +234,20 @@
                 <div class="timeline">
                     <div class="timeline-card timeline-card-primary card shadow-sm">
                         <div class="card-body">
-                            <div class="h5 mb-1">Mid-Level PHP Back-End Developer  <span class="text-muted h6">iran tech company • Full-time</span></div>
-                            <div class="text-muted text-small mb-2">Apr 2021 – present</div>
-                            <div>
-                                Include a section highlighting personal projects or links to your online portfolio, if applicable. This helps demonstrate your coding abilities and passion for programming.
+                            <div class="h5 mb-1">Scrum - Contract and Employee Management App <span class="text-muted h6">Back-end</span></div>
+                            <div class="text-muted text-small mb-2">php, laravel, js, nuxt, restfull-api</div>
+                            <div>Made substantial contributions to "Scrum," the company's contract and employee management app, built with Laravel and Nuxt.js. Working closely with the development team, I participated in feature development, bug fixing, and code refactoring. By ensuring code quality and implementing efficient solutions, I contributed to the app's overall stability and performance. The app streamlined contract management processes and improved employee-related tasks, leading to enhanced organizational efficiency and a more productive work environment.
                             </div>
                         </div>
                     </div>
-
                     <div class="timeline-card timeline-card-primary card shadow-sm">
                         <div class="card-body">
-                            <div class="h5 mb-1">jonior back end dev <span class="text-muted h6">ponisha • Freelance</span></div>
-                            <div class="text-muted text-small mb-2">Mar 2020 – Apr 2021 • 1 yr 1 mo</div>
-                            <div>Remote
-                                Technologies: PHP • Laravel • WordPress
-                                After learning the basics of back-end development, I began working as a freelancer and gained a lot of
-                                experience by completing multiple projects.
-                            </div>
+                            <div class="h5 mb-1">Company Tourism Framework  <span class="text-muted h6">Back-end</span></div>
+                            <div class="text-muted text-small mb-2">php, js, sql, html/css, ci/cd</div>
+                            <div>
+                                Actively contributed to the development of the company's tourism framework, a sophisticated platform used to create multilingual websites for the tourism industry. Collaborating with the development team, I played a key role in implementing new features, optimizing code, and resolving critical issues. My efforts significantly improved the framework's capabilities, enabling the creation of dynamic and engaging websites, which positively impacted the company's reputation and customer satisfaction.                            </div>
+                        <br>
+                            Examples:<br> <a href="https://s360.iran-tech.com/en/">S360</a> <br>  <a href="https://www.travelta.vip">Travelta</a> <br>  <a href="https://www.pmptravel.com/">PMP Travel</a>
                         </div>
                     </div>
                 </div>
