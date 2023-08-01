@@ -143,6 +143,14 @@
                     </div>
                 </div>
             </div>
+
+            <div style="background: #4a89dc54;" class="card-body">
+                <div class="h5 mb-1">Key Differentiator</div>
+                <div class="text-muted text-small mb-2">    </div>
+                <div>
+                    A standout aspect about me is the strong support network of senior developers in my country, each possessing 8 to 10 years of invaluable experience. This community is available to collaborate on projects at a highly cost-effective rate. As a result, I can serve as the company's connection to this talented pool of developers, offering expert assistance in handling even the most complex projects seamlessly.
+                </div>
+            </div>
             <hr class="d-print-none"/>
             <div class="skills-section px-3 px-lg-4">
                 <h2 class="h3 mb-3">Professional Skills</h2>
@@ -234,6 +242,14 @@
                 <div class="timeline">
                     <div class="timeline-card timeline-card-primary card shadow-sm">
                         <div class="card-body">
+                            <div class="h5 mb-1">Evento - social media pwa <span class="text-muted h6">Back-end</span></div>
+                            <div class="text-muted text-small mb-2">php, laravel, js,vue, nuxt, restfull-api</div>
+                            <div>
+                                Integral role in developing <a href="https://www.eventoblue.com/"> "Evento," </a> an innovative social media platform. Contributed to Laravel back-end and Vue.js/Nuxt.js front-end development. Assisted in code reviews, issue resolution, and performance optimization for a smooth user experience.                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-card timeline-card-primary card shadow-sm">
+                        <div class="card-body">
                             <div class="h5 mb-1">Scrum - Contract and Employee Management App <span class="text-muted h6">Back-end</span></div>
                             <div class="text-muted text-small mb-2">php, laravel, js, nuxt, restfull-api</div>
                             <div>Made substantial contributions to "Scrum," the company's contract and employee management app, built with Laravel and Nuxt.js. Working closely with the development team, I participated in feature development, bug fixing, and code refactoring. By ensuring code quality and implementing efficient solutions, I contributed to the app's overall stability and performance. The app streamlined contract management processes and improved employee-related tasks, leading to enhanced organizational efficiency and a more productive work environment.
@@ -267,6 +283,7 @@
                     </div>
                 </div>
             </div>
+
 
 
         </div></div>

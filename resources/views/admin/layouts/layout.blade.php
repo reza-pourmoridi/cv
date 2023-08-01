@@ -1,7 +1,7 @@
 <html>
 <head>
-    <link rel="stylesheet" href="{{ asset('public/css/admin/admin.css') }}">
-    <link rel="stylesheet" href="{{ asset('public/css/admin/navigation.css') }}">
+    <link rel="stylesheet" href="{{ asset($public_html.'css/admin/admin.css') }}">
+    <link rel="stylesheet" href="{{ asset($public_html.'css/admin/navigation.css') }}">
 </head>
 <body>
 <header>

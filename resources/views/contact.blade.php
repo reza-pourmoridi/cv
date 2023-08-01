@@ -123,6 +123,13 @@
                     </div>
                 </div>
             </div>
+            <div style="background: #4a89dc54;" class="card-body">
+                <div class="h5 mb-1">Key Differentiator</div>
+                <div class="text-muted text-small mb-2">    </div>
+                <div>
+                    A standout aspect about me is the strong support network of senior developers in my country, each possessing 8 to 10 years of invaluable experience. This community is available to collaborate on projects at a highly cost-effective rate. As a result, I can serve as the company's connection to this talented pool of developers, offering expert assistance in handling even the most complex projects seamlessly.
+                </div>
+            </div>
             <hr class="d-print-none"/>
             <div class="skills-section px-3 px-lg-4">
                 <h2 class="h3 mb-3">Professional Skills</h2>

@@ -12,12 +12,22 @@ class LoginAdminController extends Controller
     // Display the login form
     public function showLoginForm()
     {
-        return view('admin.login');
+        if (app()->environment('production')) {
+            $public_html = 'public/';
+        } else {
+            $public_html = '/';
+        }
+        return view('admin.login',['public_html'=>$public_html]);
     }
 
     public function doshboard()
     {
-        return view('admin.index');
+        if (app()->environment('production')) {
+            $public_html = 'public/';
+        } else {
+            $public_html = '/';
+        }
+        return view('admin.index',['public_html'=>$public_html]);
     }
 
     public function contactMeList()
@@ -28,7 +38,12 @@ class LoginAdminController extends Controller
             'list'=>$contactList ,
         ];
 
-        return view('admin.contactMe.list',compact('result'));
+        if (app()->environment('production')) {
+            $public_html = 'public/';
+        } else {
+            $public_html = '/';
+        }
+        return view('admin.contactMe.list',['public_html'=>$public_html , 'result' => ['list' => $contactList]]);
     }
 
 
