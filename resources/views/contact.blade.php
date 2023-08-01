@@ -16,10 +16,10 @@
     <noscript>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&amp;family=Roboto:wght@300;400;500;700&amp;display=swap"/>
     </noscript>
-    <link href="{{ (asset('css/font-awesome/css/all.min.css?ver=1.2.0')) }}"  rel="stylesheet">
-    <link href="{{ (asset('css/bootstrap.min.css?ver=1.2.0')) }}"  rel="stylesheet">
-    <link href="{{ (asset('css/aos.css?ver=1.2.0')) }}"  rel="stylesheet">
-    <link href="{{ (asset('css/main.css?ver=1.2.0')) }}"  rel="stylesheet">
+    <link href="{{ (asset($public_html.'css/font-awesome/public/css/all.min.css?ver=1.2.0')) }}"  rel="stylesheet">
+    <link href="{{ (asset($public_html.'css/bootstrap.min.css?ver=1.2.0')) }}"  rel="stylesheet">
+    <link href="{{ (asset($public_html.'css/aos.css?ver=1.2.0')) }}"  rel="stylesheet">
+    <link href="{{ (asset($public_html.'css/main.css?ver=1.2.0')) }}"  rel="stylesheet">
     <noscript>
         <style type="text/css">
             [data-aos] {
@@ -40,7 +40,7 @@
       "employmentType": "Remote"
     }
     </script>
-    <link rel="icon" type="image/x-icon" href="{{ (asset('public/images/favicon.ico')) }}">
+    <link rel="icon" type="image/x-icon" href="{{ (asset($public_html.'images/favicon.ico')) }}">
 
 
 </head>
@@ -70,13 +70,13 @@
             <div class="cover-bg p-3 p-lg-4 text-white">
                 <div class="row">
                     <div class="col-lg-4 col-md-5">
-                        <div class="avatar hover-effect bg-white shadow-sm p-1"><img src="images/avatar.jpg" width="200" height="200"/></div>
+                        <div class="avatar hover-effect bg-white shadow-sm p-1"><img src="{{$public_html}}images/avatar.jpg" width="200" height="200"/></div>
                     </div>
                     <div class="col-lg-8 col-md-7 text-center text-md-start">
                         <h2 class="h1 mt-2" data-aos="fade-left" data-aos-delay="0">Reza Pourmoridi</h2>
                         <h2>Mid-Level PHP Back-End Developer</h2>
 
-                        <div class="d-print-none" data-aos="fade-left" data-aos-delay="200"><a class="btn btn-light text-dark shadow-sm mt-1 me-1" href="{{ (asset('public/images/reza-pourmoridi-cv.pdf')) }}" target="_blank">Download CV</a><a class="btn btn-success shadow-sm mt-1" href="#contact">Hire Me</a></div>
+                        <div class="d-print-none" data-aos="fade-left" data-aos-delay="200"><a class="btn btn-light text-dark shadow-sm mt-1 me-1" href="{{ (asset($public_html.'images/reza-pourmoridi-cv.pdf')) }}" target="_blank">Download CV</a><a class="btn btn-success shadow-sm mt-1" href="#contact">Hire Me</a></div>
                     </div>
                 </div>
             </div>
@@ -214,6 +214,14 @@
                 <div class="timeline">
                     <div class="timeline-card timeline-card-primary card shadow-sm">
                         <div class="card-body">
+                            <div class="h5 mb-1">Evento - social media pwa <span class="text-muted h6">Back-end</span></div>
+                            <div class="text-muted text-small mb-2">php, laravel, js,vue, nuxt, restfull-api</div>
+                            <div>
+                                Integral role in developing <a href="https://www.eventoblue.com/"> "Evento," </a> an innovative social media platform. Contributed to Laravel back-end and Vue.js/Nuxt.js front-end development. Assisted in code reviews, issue resolution, and performance optimization for a smooth user experience.                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-card timeline-card-primary card shadow-sm">
+                        <div class="card-body">
                             <div class="h5 mb-1">Scrum - Contract and Employee Management App <span class="text-muted h6">Back-end</span></div>
                             <div class="text-muted text-small mb-2">php, laravel, js, nuxt, restfull-api</div>
                             <div>Made substantial contributions to "Scrum," the company's contract and employee management app, built with Laravel and Nuxt.js. Working closely with the development team, I participated in feature development, bug fixing, and code refactoring. By ensuring code quality and implementing efficient solutions, I contributed to the app's overall stability and performance. The app streamlined contract management processes and improved employee-related tasks, leading to enhanced organizational efficiency and a more productive work environment.
@@ -318,9 +326,9 @@
         </div>
     </div>
 </footer>
-<script src="{{ (asset('scripts/bootstrap.bundle.min.js?ver=1.2.0')) }}"></script>
-<script src="{{ (asset('scripts/aos.js?ver=1.2.0')) }}"></script>
-<script src="{{ (asset('scripts/main.js?ver=1.2.0')) }}"></script>
+<script src="{{ (asset($public_html.'scripts/bootstrap.bundle.min.js?ver=1.2.0')) }}"></script>
+<script src="{{ (asset($public_html.'scripts/aos.js?ver=1.2.0')) }}"></script>
+<script src="{{ (asset($public_html.'scripts/main.js?ver=1.2.0')) }}"></script>
 <script>
     document.addEventListener('DOMContentLoaded', function() {
         const form = document.getElementById('contactForm');

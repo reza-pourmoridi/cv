@@ -10,11 +10,22 @@ class ConatactController extends Controller
 
     public function create()
     {
-        return view('contact');
+        if (app()->environment('production')) {
+            $public_html = 'public/';
+        } else {
+            $public_html = '/';
+        }
+
+        return view('contact', ['public_html' => $public_html]);
     }
     public function cv()
     {
-        return view('cv');
+        if (app()->environment('production')) {
+            $public_html = 'public/';
+        } else {
+            $public_html = '/';
+        }
+        return view('cv',['public_html'=>$public_html]);
     }
 
     public function store(Request $request)

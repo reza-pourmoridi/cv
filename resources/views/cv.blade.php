@@ -16,10 +16,10 @@
     <noscript>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&amp;family=Roboto:wght@300;400;500;700&amp;display=swap"/>
     </noscript>
-    <link href="{{ (asset('css/font-awesome/css/all.min.css?ver=1.2.0')) }}"  rel="stylesheet">
-    <link href="{{ (asset('css/bootstrap.min.css?ver=1.2.0')) }}"  rel="stylesheet">
-    <link href="{{ (asset('css/aos.css?ver=1.2.0')) }}"  rel="stylesheet">
-    <link href="{{ (asset('css/main.css?ver=1.2.0')) }}"  rel="stylesheet">
+    <link href="{{ (asset($public_html.'css/font-awesome/public/css/all.min.css?ver=1.2.0')) }}"  rel="stylesheet">
+    <link href="{{ (asset($public_html.'css/bootstrap.min.css?ver=1.2.0')) }}"  rel="stylesheet">
+    <link href="{{ (asset($public_html.'css/aos.css?ver=1.2.0')) }}"  rel="stylesheet">
+    <link href="{{ (asset($public_html.'css/main.css?ver=1.2.0')) }}"  rel="stylesheet">
 
     <style>
         /* styles.css */
@@ -66,7 +66,7 @@
       "employmentType": "Remote"
     }
     </script>
-    <link rel="icon" type="image/x-icon" href="{{ (asset('public/images/favicon.ico')) }}">
+    <link rel="icon" type="image/x-icon" href="{{ (asset($public_html.'images/favicon.ico')) }}">
 
 
 </head>
@@ -90,7 +90,7 @@
             <div class="cover-bg p-3 p-lg-4 text-white">
                 <div class="row">
                     <div class="col-lg-4 col-md-5">
-                        <div class="avatar hover-effect bg-white shadow-sm p-1"><img src="images/avatar.jpg" width="200" height="200"/></div>
+                        <div class="avatar hover-effect bg-white shadow-sm p-1"><img src="{{$public_html}}images/avatar.jpg" width="200" height="200"/></div>
                     </div>
                     <div class="col-lg-8 col-md-7 text-center text-md-start">
                         <h2 class="h1 mt-2" data-aos="fade-left" data-aos-delay="0">Reza Pourmoridi</h2>
